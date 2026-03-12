@@ -1,0 +1,9 @@
+/.idea
+/.vscode
+/gewe-gateway
+/tmp
+/dist
+/*.db
+/*.db-shm
+/*.db-wal
+
