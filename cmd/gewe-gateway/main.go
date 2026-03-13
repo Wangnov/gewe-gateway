@@ -37,6 +37,7 @@ func main() {
 		slog.Error("create server failed", "err", err)
 		os.Exit(1)
 	}
+	defer api.Close()
 
 	httpServer := &http.Server{
 		Addr:              cfg.ListenAddr,

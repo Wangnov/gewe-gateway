@@ -1,0 +1,18 @@
+{
+  "listenAddr": ":8080",
+  "databasePath": "./data/gewe-gateway.db",
+  "gatewayKey": "replace-with-a-long-random-secret",
+  "geweApiBaseUrl": "https://www.geweapi.com",
+  "geweToken": "replace-with-gewe-token",
+  "geweAppId": "replace-with-gewe-app-id",
+  "geweWebhookSecret": "replace-with-gewe-webhook-secret",
+  "instanceLeaseTtl": "5m",
+  "forwardTimeout": "10s",
+  "outboundMaxAttempts": 3,
+  "outboundBaseBackoff": "2s",
+  "outboundMaxBackoff": "30s",
+  "workerPollInterval": "500ms",
+  "inboundDedupeRetention": "168h",
+  "outboundHistoryRetention": "336h",
+  "maintenanceInterval": "1h"
+}
